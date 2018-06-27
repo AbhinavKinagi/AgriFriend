@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/buy"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="#f44336"
+            android:text="@string/category_buy"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_height="88dp"
+            android:layout_width="match_parent"
+            android:id="@+id/sell"
+            android:background="#2196f3"
+            android:gravity="center"
+            android:text="@string/category_sell"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_height="88dp"
+            android:layout_width="match_parent"
+            android:id="@+id/help"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#43a047"
+            android:text="@string/category_help"
+            android:textStyle="bold"
+            android:textSize="30sp"
+             />
+    </LinearLayout>
+</RelativeLayout>

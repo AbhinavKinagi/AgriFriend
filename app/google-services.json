@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "991472264515",
+    "firebase_url": "https://agrifriend4.firebaseio.com",
+    "project_id": "agrifriend4",
+    "storage_bucket": "agrifriend4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991472264515:android:b2a953f7c9ce6065",
+        "android_client_info": {
+          "package_name": "com.example.abhinav.agrifriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991472264515-jakmkbvgp9imh8mnuvri78mn7vgnambd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhinav.agrifriend",
+            "certificate_hash": "673d666a4847d65b4d27648fdfd6130bb56600c2"
+          }
+        },
+        {
+          "client_id": "991472264515-eauhvqovfosf7nse7urvn29qrdheikak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIGmYWmH0HFtwKVB9l3o4Oh4XDUKnuYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991472264515-eauhvqovfosf7nse7urvn29qrdheikak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
